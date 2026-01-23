@@ -33,18 +33,24 @@
     font-weight: 700;
     color: $white;
 
-    background-color: $primary-dark;
+    background-color: $orange;
 
     transition: background-color 0.3s ease;
 
     &:hover {
       background-color: $grey-dark;
     }
+    &:active {
+    background-color: $black;}
 
     @include on-desktop {
       align-self: stretch;
     }
   }
+}
+
+.form__input--textarea {
+  resize: none;
 }
 
 .contact-us {

@@ -30,8 +30,10 @@
 
   &__image {
     display: block;
+    height: auto;
     object-fit: contain;
      transition: transform 0.3s ease;
+     
     &:hover {
       transform: scale(1.1);
     }
