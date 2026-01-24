@@ -58,7 +58,7 @@
       position: relative;
       gap: 12px;
       padding-left: 0;
-      background-image: url('../../images/Phone-number.png');
+      background-image: url('../images/Phone-number.png');
 
        .phone-number {
         pointer-events: none;
@@ -85,13 +85,13 @@
 
      @include on-desktop {
     &:hover .phone-number {
-      display: block; 
+      display: block;
     }
   }
     }
 
     &--burger {
-      background-image: url('../../images/Icon-Burger-menu.png');
+      background-image: url('../images/Icon-Burger-menu.png');
     }
 
 
@@ -204,7 +204,7 @@
   display: block;
   width: 32px;
   height: 32px;
-  background: url('../../images/icon-close.png') center / contain no-repeat;
+  background: url('../images/icon-close.png') center / contain no-repeat;
 }
 
 
@@ -224,7 +224,7 @@
   height: 100vh;
 
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-              url('../../images/header-bg.png') center bottom / cover no-repeat;
+              url('../images/header-bg.png') center bottom / cover no-repeat;
 
   &__bottom {
     padding: 0 16px 40px;
